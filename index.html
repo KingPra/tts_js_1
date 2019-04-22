@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>js homework 1</title>
+  </head>
+  <body>
+    <!-- challenge #1 -->
+    <div>
+      <h1>Homework</h1>
+      <h2>Coffee time</h2>
+      <form id="form-coffee">
+        <label
+          >How many cups of coffee have you had today? :
+          <input type="text" id="cups"
+        /></label>
+        <button type="submit">Submit</button>
+      </form>
+      <p id="coffee-log"></p>
+    </div>
+    <!-- challenge # 2 -->
+    <div>
+      <h2>Sink or Swim</h2>
+      <form id="form-temp">
+        <label>
+          Enter today's temperature and select the weather condition below:
+          <br /><input placeholder="Enter Temp" id="temp" /> </label
+        ><br />
+        <label>
+          Choose weather conditions:<br />
+          <select id="weather-condition">
+            <option value="raining">Raining</option>
+            <option value="sunny">Sunny</option>
+            <option value="cloudy">Cloudy</option>
+            <option value="snowing">Snowing</option>
+          </select> </label
+        ><br />
+        <label
+          >Is the pool indoors or outdoors?<br />
+          <select id="pool">
+            <option value="indoor">indoor</option>
+            <option value="outdoor">outdoor</option>
+          </select> </label
+        ><br />
+
+        <button type="submit">Submit</button>
+      </form>
+      <p id="swim-log"></p>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
